@@ -1,14 +1,18 @@
-// Mengambil elemen-elemen HTML
-const changeTextButton = document.getElementById('changeTextButton');
-const message = document.getElementById('message');
-const showAlertButton = document.getElementById('showAlertButton');
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Praktek HTML dan JavaScript</title>
+    </head>
+    <body>
+        <h1>Selamat Datang di Praktek HTML dan JavaScript</h1>
+    <p id="message">Klik tombol di bawah untuk mengubah teks ini.</p>
 
-// Fungsi untuk mengubah teks paragraf
-changeTextButton.addEventListener('click', function() {
-    message.textContent = 'Teks ini telah diubah! Terima kasih telah mengklik tombol.';
-});
+    <!-- Tombol untuk mengubah teks -->
+    <button id="changeTextButton">Ubah Teks</button>
 
-// Fungsi untuk menampilkan alert
-showAlertButton.addEventListener('click', function() {
-    alert('Selamat! Anda telah menekan tombol alert.');
-});
+    <!-- Tombol untuk menampilkan alert -->
+    <button id="showAlertButton">Tampilkan Alert</button>
+
+    <script src="script.js"></script>
+    </body>
+</html>
